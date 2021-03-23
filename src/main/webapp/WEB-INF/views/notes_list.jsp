@@ -45,7 +45,13 @@
 <br/>
 <br/>
 
-<a href="<c:url value="/addnote"/>">ADD A NEW NOTE</a>
+<form action="<c:url value="/addnote"/>" method="get">
+    <input type="hidden" value="none" name="none">
+    <input type="submit" value="ADD NEW NOTE">
+</form>
+
+<%--<a href="<c:url value="/addnote"/>">ADD A NEW NOTE</a>--%>
+
 
 </body>
 </html>
